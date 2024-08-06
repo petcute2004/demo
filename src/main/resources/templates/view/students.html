@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Studens</title>
+</head>
+<body>
+
+<div>
+    <a th:href="@{|student?n=${i-1}|}">Prev</a>
+    <span>[[${i+1}]]</span>
+    <span>/[[${size}]]</span>
+    <a th:href="@{|student?n=${i+1}|}">Next</a>
+
+    <hr>
+
+    <ul>
+        <li>Name: [[${sv.name}]]</li>
+        <li>ID: [[${sv.id}]]</li>
+        <li>Age: [[${sv.age}]]</li>
+        <li>Majoy: [[${sv.major}]]</li>
+    </ul>
+</div>
+
+</body>
+</html>

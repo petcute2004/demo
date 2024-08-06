@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sinh Viên</title>
+</head>
+<body>
+<div>
+    <a th:href="@{|sinhvien?n=${i-1}|}">Prev</a>
+    <span>[[${i+1}]]</span>
+    <span>/[[${size}]]</span>
+    <a th:href="@{|sinhvien?n=${i+1}|}">Next</a>
+
+    <hr>
+
+    <ul>
+        <li>Id: [[${sv.id}]]</li>
+        <li>Name: [[${sv.name}]]</li>
+        <li>Contact:</li>
+        <ul>
+            <li>Email: [[${sv.contact.email}]]</li>
+            <li>Phone: [[${sv.contact.phone}]]</li>
+        </ul>
+        <li>Age: [[${sv.age}]]</li>
+        <li>Subject:
+            <b th:if="${sv.gender}">Nam</b>
+            <b th:unless="${sv.gender}">Nữ</b>
+            </li>
+        <li>Subject: [[${sv.subject}]]</li>
+
+    </ul>
+</div>
+
+</body>
+</html>

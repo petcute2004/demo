@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Sinh Viên 1",
+    "age": 21,
+    "major": "Ngành 1"
+  },
+  {
+    "id": 2,
+    "name": "Sinh Viên 2",
+    "age": 22,
+    "major": "Ngành 2"
+  },
+  {
+    "id": 3,
+    "name": "Sinh Viên 3",
+    "age": 23,
+    "major": "Ngành 3"
+  },
+  {
+    "id": 4,
+    "name": "Sinh Viên 4",
+    "age": 24,
+    "major": "Ngành 4"
+  },
+  {
+    "id": 5,
+    "name": "Sinh Viên 5",
+    "age": 25,
+    "major": "Ngành 5"
+  }
+]

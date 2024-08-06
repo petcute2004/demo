@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "major": "Computer Science",
+    "gender": true,
+    "age": 20,
+    "subject": "Mathematics",
+    "contact": {
+      "phone": "123-456-7890",
+      "email": "john.doe@example.com"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "major": "Electrical Engineering",
+    "gender": false,
+    "age": 22,
+    "subject": "Physics",
+    "contact": {
+      "phone": "987-654-3210",
+      "email": "jane.smith@example.com"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Alice Johnson",
+    "major": "Mechanical Engineering",
+    "gender": false,
+    "age": 21,
+    "subject": "Chemistry",
+    "contact": {
+      "phone": "555-123-4567",
+      "email": "alice.johnson@example.com"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Bob Brown",
+    "major": "Civil Engineering",
+    "gender": true,
+    "age": 23,
+    "subject": "Geology",
+    "contact": {
+      "phone": "444-987-6543",
+      "email": "bob.brown@example.com"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Charlie Davis",
+    "major": "Software Engineering",
+    "gender": true,
+    "age": 24,
+    "subject": "Computer Science",
+    "contact": {
+      "phone": "333-444-5555",
+      "email": "charlie.davis@example.com"
+    }
+  }
+]

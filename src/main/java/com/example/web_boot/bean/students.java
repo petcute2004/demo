@@ -1,0 +1,11 @@
+package com.example.web_boot.bean;
+
+import lombok.Data;
+
+@Data
+public class students {
+    private int id;
+    private String name;
+    private int age;
+    private String major;
+}
