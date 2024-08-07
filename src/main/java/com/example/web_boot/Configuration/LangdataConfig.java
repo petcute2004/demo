@@ -19,15 +19,15 @@ public class LangdataConfig implements WebMvcConfigurer {
     @Bean("messageSource")
     public MessageSource messageSource() {
         ReloadableResourceBundleMessageSource messageSource = new ReloadableResourceBundleMessageSource();
-        messageSource.setDefaultEncoding("UTF-8");
-        messageSource.setBasename("classpath:Lang/messages");
+        messageSource.setDefaultEncoding("utf-8");
+        messageSource.setBasename("classpath:Lang/message");
         return messageSource;
     }
 
     @Bean("cookie")
     public LocaleResolver cookieLocaleResolver() {
         CookieLocaleResolver cookie = new CookieLocaleResolver();
-        cookie.setDefaultLocale( new Locale("vi"));
+        cookie.setDefaultLocale( new Locale("_vi"));
         cookie.setCookieMaxAge(24*60*60);
         return cookie;
     }
